@@ -32,7 +32,7 @@ class _SigninpageState extends State<Signinpage> {
             ),
             Center(
               child: Text(
-                "Welcome Back yo",
+                "Welcome Back",
                 style: GoogleFonts.pacifico(
                   color: Colors.white,
                   fontSize: 40,
@@ -63,7 +63,7 @@ class _SigninpageState extends State<Signinpage> {
                         borderRadius: BorderRadius.circular(50)),
                     minimumSize: const Size(double.infinity, 50),
                   ),
-                  label: const Text("Sign In")),
+                  label: const Text("Sign Up")),
             ),
           ],
         ),
